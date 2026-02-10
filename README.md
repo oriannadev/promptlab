@@ -10,7 +10,7 @@ The core analysis engine runs entirely offline using rule-based heuristics, rege
 ## Installation
 
 ```bash
-git clone https://github.com/orianna1510-code/promptlab.git
+git clone https://github.com/oriannadev/promptlab.git
 cd promptlab
 pip install -e .
 ```

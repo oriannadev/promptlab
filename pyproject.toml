@@ -46,9 +46,9 @@ dev = [
 promptlab = "promptlab.cli:main"
 
 [project.urls]
-Homepage = "https://github.com/orianna1510-code/promptlab"
-Repository = "https://github.com/orianna1510-code/promptlab"
-Issues = "https://github.com/orianna1510-code/promptlab/issues"
+Homepage = "https://github.com/oriannadev/promptlab"
+Repository = "https://github.com/oriannadev/promptlab"
+Issues = "https://github.com/oriannadev/promptlab/issues"
 
 [tool.setuptools.packages.find]
 include = ["promptlab*"]
