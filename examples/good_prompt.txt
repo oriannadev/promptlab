@@ -1,0 +1,13 @@
+You are a veterinary nutritionist writing for a pet owner blog. Write a 300-word article explaining why grain-free diets may not be suitable for all dog breeds.
+
+Target audience: First-time dog owners with no veterinary background.
+
+Requirements:
+- Use a warm, reassuring tone
+- Include at least 2 specific breed examples
+- Cite the FDA's 2019 investigation into grain-free diets and DCM
+- End with 3 actionable takeaways in a bulleted list
+- Do not recommend specific commercial brands
+
+Example of the tone I want:
+"Choosing the right food for your new furry family member can feel overwhelming, but understanding a few basics can make all the difference."

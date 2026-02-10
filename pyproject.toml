@@ -1,0 +1,62 @@
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "promptlab"
+version = "0.1.0"
+description = "A prompt engineering analysis toolkit -- analyze, score, and improve your prompts without an API key."
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.9"
+authors = [
+    {name = "Orianna Arvelo Ramirez", email = "orianna1510@example.com"},
+]
+keywords = ["prompt-engineering", "llm", "ai", "cli", "analysis"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Console",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "click>=8.0",
+    "rich>=13.0",
+]
+
+[project.optional-dependencies]
+enhance = [
+    "openai>=1.0",
+    "anthropic>=0.20",
+]
+dev = [
+    "pytest>=7.0",
+    "pytest-cov>=4.0",
+]
+
+[project.scripts]
+promptlab = "promptlab.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/orianna1510-code/promptlab"
+Repository = "https://github.com/orianna1510-code/promptlab"
+Issues = "https://github.com/orianna1510-code/promptlab/issues"
+
+[tool.setuptools.packages.find]
+include = ["promptlab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-v --tb=short"
+
+[tool.ruff]
+target-version = "py39"
+line-length = 100
